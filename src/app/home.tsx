@@ -8,7 +8,7 @@ export const Home = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentImage((currentImage) => (currentImage + 1) % PAINTINGS.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(intervalId);
   }, []);

@@ -6,7 +6,7 @@ export const About = () => {
       <h2 className='m-12 text-4xl'>About the Artist</h2>
       <div className='flex flex-wrap justify-center gap-24'>
         <div className="max-w-lg">
-          <Image height={500} width={500} alt='centerpiece' src="/artist-placeholder.png" className='rounded-full' layout="responsive" />
+          <Image height={500} width={500} alt='centerpiece' src="/artist-placeholder.png" className='rounded-full' />
         </div>
         <div className="max-w-lg flex flex-col justify-center">
           <p>

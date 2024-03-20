@@ -1,7 +1,7 @@
 export const PAINTINGS = [
+  "/paintings/marlin.jpg",
   "/paintings/big_fish.jpg",
   "/paintings/img.jpg",
-  "/paintings/marlin.jpg",
   "/paintings/queen_trigger.jpg",
   "/paintings/sailfish.jpg",
   "/paintings/scatter.jpg",
