@@ -30,7 +30,7 @@ export const Contact = () => {
               </span>
           </p>
           <Spacer height={2} />
-          <p>// anything else you want to say</p>
+          <p>anything else you want to say</p>
         </div>
       </div>
       <Spacer height={32} />
