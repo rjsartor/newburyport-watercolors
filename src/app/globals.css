@@ -8,7 +8,7 @@
   --foreground: #3B6883;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --accent: #93E9BE;
+  --accent: #73e1aa;
 }
 
 @media (prefers-color-scheme: dark) {

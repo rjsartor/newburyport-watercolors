@@ -94,7 +94,7 @@ const NavBar = () => {
           <li 
             key={section} 
             className='cursor-pointer text-2xl hover:text-green-400'
-            style={{ color: selectedSection === section ? '#93E9BE' : '#3B6883' }}
+            style={{ color: selectedSection === section ? '#73e1aa' : '#3B6883' }}
             onClick={() => handleNavClick(section)}
           >
             {section.charAt(0).toUpperCase() + section.slice(1)}

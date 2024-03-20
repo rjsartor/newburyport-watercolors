@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rosarivo } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const rosarivo = Rosarivo({ weight: ['400'], subsets: ['latin'] });
 
