@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Rosarivo:ital@0;1&display=swap');
+
+:root {
+  --foreground: #3B6883;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --accent: #93E9BE;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background-color: #fee7c9;
+  /* 
+  background-image: url('/sandy_beach.png'); 
+  background-size: cover;
+  background-position: center;
+  */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; /* Ensure children stretch to fill the width */
+}
+
+.content-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 68px;
+}
+
+@media (max-width: 768px) {
+  .content-section {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+   
+  }
+}
