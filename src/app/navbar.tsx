@@ -77,13 +77,14 @@ const NavBar = () => {
       style={{ 
         backgroundImage: "url('/sandy_beach.png')",
         backgroundSize: 'cover',
-        backgroundPosition: 'center'
+        backgroundPosition: 'center',
+        height: 132,
       }}
     >
       <div className="flex justify-between items-center p-8">
         <div className="flex items-center">
           <Image height={100} width={80} alt='logo' src="/artist-placeholder.png" className='hidden md:block' style={{ borderRadius: '50%' }} />
-          <h2 className='ml-3 text-2xl md:text-4xl'>NEWBURYPORT WATERCOLORS</h2>
+          <h2 className='ml-3 text-4xl'>Newburyport Watercolors</h2>
         </div>
         <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
           <FaBars />
