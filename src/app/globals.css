@@ -8,7 +8,8 @@
   --foreground: #3B6883;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --accent: #73e1aa;
+  /* --accent: #73e1aa; */
+  --accent: #37bc7a;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,12 +22,13 @@
 
 body {
   color: var(--foreground);
-  background-color: #fee7c9;
-  /* 
-  background-image: url('/sandy_beach.png'); 
+  /* background-color: #fee7c9; */
+  background-color: #e6dec6;
+  
+  /* background-image: url('/a.png'); 
   background-size: cover;
-  background-position: center;
-  */
+  background-position: center; */
+ 
 }
 
 @layer utilities {

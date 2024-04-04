@@ -71,9 +71,7 @@ const NavBar = () => {
   //  bg-[#FAEBD7] 
   return (
     <nav 
-      className="fixed shadow-md z-10 w-full
-       md:flex justify-between
-       "
+      className="fixed shadow-md z-10 w-full md:flex justify-between"
       style={{ 
         backgroundImage: "url('/sandy_beach.png')",
         backgroundSize: 'cover',
@@ -82,8 +80,8 @@ const NavBar = () => {
       }}
     >
       <div className="flex justify-between items-center p-8">
-        <div className="flex items-center">
-          <Image height={100} width={80} alt='logo' src="/artist-placeholder.png" className='hidden md:block' style={{ borderRadius: '50%' }} />
+        <div className="flex items-center" onClick={() => handleNavClick(Sections.HOME)}>
+          <Image height={100} width={80} alt='logo' src="/tarpon-icon.png" className='hidden md:block' style={{ borderRadius: '50%' }} />
           <h2 className='ml-3 text-4xl'>Newburyport Watercolors</h2>
         </div>
         <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="md:hidden">
@@ -91,16 +89,17 @@ const NavBar = () => {
         </button>
       </div>
       <ul className={`flex flex-col md:flex-row space-x-0 md:space-x-4 p-8 items-center ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
-        {Object.values(Sections).map((section) => (
-          <li 
+        {Object.values(Sections).map((section) => {
+          if (section === Sections.HOME) return;
+          return <li 
             key={section} 
             className='cursor-pointer text-2xl hover:text-green-400'
-            style={{ color: selectedSection === section ? '#73e1aa' : '#3B6883' }}
+            style={{ color: selectedSection === section ? '#37bc7a' : '#3B6883' }}
             onClick={() => handleNavClick(section)}
           >
             {section.charAt(0).toUpperCase() + section.slice(1)}
           </li>
-        ))}
+        })}
       </ul>
     </nav>
   );

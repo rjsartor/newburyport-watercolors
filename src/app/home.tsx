@@ -14,12 +14,12 @@ export const Home = () => {
   }, []);
 
   return (
-    <div id='home' className='content-section' style={{ height: 'calc(100vh - 110px)', width: '100vw', overflow: 'hidden', position: 'relative', marginTop: 132 }}>
+    <section id='home' className='content-section' style={{ height: 'calc(100vh - 110px)', width: '100vw', overflow: 'hidden', position: 'relative', marginTop: 132 }}>
       {PAINTINGS.map((src, index) => {
         return <div
-          key={src}
+          key={`${src.name}-${index}`}
           style={{
-            backgroundImage: `url(${src})`,
+            backgroundImage: `url(${src.path})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             position: 'absolute',
@@ -30,6 +30,6 @@ export const Home = () => {
           }}
         />
       })}
-    </div>
+    </section>
   );
 };
