@@ -27,7 +27,7 @@ export const Contact = () => {
             For any inqueries or questions, email me at <b className="underline">{' '}<a href="mailto:brucewarlington@gmail.com?subject=Artwork Inquiry&body=Hi Bruce, " target="_blank" rel="noopener noreferrer" aria-label='email'>brucewarlington@gmail.com.</a></b>
           </p>
           <Spacer height={2} />
-          <p>To purchase a piece online, click on the painting above or <b className="underline"><a href="https://www.etsy.com/shop/NBPTWatercolors" target="_blank">visit the shop</a></b>.</p>
+          <p>To purchase a piece, click on the painting above or <b className="underline"><a href="https://www.etsy.com/shop/NBPTWatercolors" target="_blank">visit the shop online</a></b>.</p>
         </div>
       {/* </div> */}
     </section>
