@@ -15,7 +15,7 @@ export const About = () => {
           </p>
           <Spacer height={2} />
           <p>
-            Another early experience of Bruce’s was traditional wooden boat building. He learned the craft at the historic <span className='underline'><a href="http://lowellsboatshop.com/" target="_blank">Lowell’s Boat Shop</a></span> in Amesbury, Massachusetts, the oldest operating Boat Shop in America. While building a Dory in an Art Museum, Bruce became inspired to learn to paint.  As the saying goes, the rest is history. The boat shop influence is evident in a lot of his work. 
+            Another early experience of Bruce’s was traditional wooden boat building. He learned the craft at the historic <span className='underline'><a href="http://lowellsboatshop.com/" target="_blank">Lowell’s Boat Shop</a></span> in Amesbury, Massachusetts, the oldest operating Boat Shop in America. While building a Dory in an Art Museum, Bruce became inspired to learn to paint.  As the saying goes, the rest is history. The boat shop influence is evident in many of his work. 
           </p>
           <Spacer height={2} />
           <p>
