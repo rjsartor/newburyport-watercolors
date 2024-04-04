@@ -80,7 +80,7 @@ const NavBar = () => {
       }}
     >
       <div className="flex justify-between items-center p-8">
-        <div className="flex items-center" onClick={() => handleNavClick(Sections.HOME)}>
+        <div className="flex items-center cursor-pointer" onClick={() => handleNavClick(Sections.HOME)}>
           <Image height={100} width={80} alt='logo' src="/tarpon-icon.png" className='hidden md:block' style={{ borderRadius: '50%' }} />
           <h2 className='ml-3 text-4xl'>Newburyport Watercolors</h2>
         </div>
