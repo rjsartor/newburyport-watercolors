@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Rosarivo } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
+import { Analytics } from '@vercel/analytics/react';
 
 const rosarivo = Rosarivo({ weight: ['400'], subsets: ['latin'] });
 
@@ -17,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={rosarivo.className}>{children}</body>
+      <body className={rosarivo.className}>
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
