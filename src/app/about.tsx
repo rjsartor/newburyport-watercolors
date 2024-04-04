@@ -11,11 +11,11 @@ export const About = () => {
         </div>
         <div className="max-w-lg flex flex-col justify-center">
           <p>
-            Bruce Arlington is a watercolor artist who lives in the Historic Seaport of Newburyport Massachusetts. He attended Salem State College where he earned a Bachelor of Science Degree in business. While at college, Bruce also studied art, became a certified Scuba Diver, and eventually a Divemaster. His extensive diving experiences have proven beneficial in his artistic endeavors. 
+            Bruce Arlington is a watercolor artist who lives in the Historic Seaport of Newburyport Massachusetts. He attended Salem State College where he earned a Bachelor of Science Degree in Business. While at college, Bruce also studied art, started scuba diving, and eventually became a certified Divemaster. His extensive diving experiences have proven beneficial in his artistic endeavors. 
           </p>
           <Spacer height={2} />
           <p>
-            Another early experience of Bruce’s was traditional wooden boat building. He learned the craft at the historic <span className='underline'><a href="http://lowellsboatshop.com/" target="_blank">Lowell’s Boat Shop</a></span> in Amesbury, Massachusetts, the oldest operating Boat Shop in America. While building a Dory in an Art Museum, Bruce became inspired to learn to paint.  As the saying goes, the rest is history. The boat shop influence is evident in many of his work. 
+            Another early experience of Bruce’s was traditional wooden boat building. He learned the craft at the historic <span className='underline'><a href="http://lowellsboatshop.com/" target="_blank">Lowell’s Boat Shop</a></span> in Amesbury, Massachusetts, the oldest operating Boat Shop in America. While building a Dory in an Art Museum, Bruce became inspired to learn to paint. As the saying goes, the rest is history. The boat shop influence is evident in many of his works. 
           </p>
           <Spacer height={2} />
           <p>
