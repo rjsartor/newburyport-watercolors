@@ -88,7 +88,7 @@ const NavBar = () => {
           <FaBars />
         </button>
       </div>
-      <ul className={`flex flex-col md:flex-row space-x-0 md:space-x-4 p-8 items-center ${isMenuOpen ? 'block' : 'hidden md:flex'}`}>
+      <ul className={`flex flex-col md:flex-row space-x-0 md:space-x-4 p-8 items-center ${isMenuOpen ? 'block z-10 bg-[#fee7c9]' : 'hidden md:flex'}`}>
         {Object.values(Sections).map((section) => {
           if (section === Sections.HOME) return;
           return <li 
