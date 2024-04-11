@@ -44,7 +44,7 @@ a:hover {
 main {
   display: flex;
   flex-direction: column;
-  align-items: stretch; /* Ensure children stretch to fill the width */
+  align-items: stretch;
 }
 
 .content-section {
@@ -62,5 +62,23 @@ main {
     padding: 20px;
     height: auto;
    
+  }
+}
+
+.image-div {
+  background-size: cover;
+  background-position: center;
+  background-repeat: 'no-repeat';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: opacity 2s ease-in-out;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .image-div {
+    background-size: 145%;
   }
 }

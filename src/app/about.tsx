@@ -4,7 +4,7 @@ import Spacer from "./spacer";
 export const About = () => {
   return (
     <section id='about' className='content-section flex-col sm:mb-24'>
-      <h2 className='m-12 text-4xl sm:text-5xl'>About the Artist</h2>
+      <h2 className='m-12 text-3xl sm:text-5xl'>About the Artist</h2>
       <div className='flex flex-wrap justify-center gap-8 sm:gap-24'>
         <div className="max-w-lg">
           <Image height={400} width={400} alt='centerpiece' src="/bruce.png" className='rounded-full' />
@@ -15,7 +15,7 @@ export const About = () => {
           </p>
           <Spacer height={2} />
           <p>
-            Another early experience of Bruce’s was traditional wooden boat building. He learned the craft at the historic <span className='underline'><a href="http://lowellsboatshop.com/" target="_blank">Lowell’s Boat Shop</a></span> in Amesbury, Massachusetts, the oldest operating Boat Shop in America. While building a Dory in an Art Museum, Bruce became inspired to learn to paint. As the saying goes, the rest is history. The boat shop influence is evident in many of his works. 
+            Another early experience of Bruce’s was traditional wooden boat building. He learned the craft at the historic <span className='underline'><a href="http://lowellsboatshop.com/" target="_blank">Lowell’s Boat Shop</a></span> in Amesbury, Massachusetts, the oldest operating Boat Shop in America. While building a Dory in an Art Museum, Bruce became inspired to learn to paint. As the saying goes, the rest is history.
           </p>
           <Spacer height={2} />
           <p>
