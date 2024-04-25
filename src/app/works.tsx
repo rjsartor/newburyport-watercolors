@@ -8,17 +8,18 @@ interface PaintingCardProps {
     name: string;
     details: string;
     etsyUrl: string;
+    price?: number;
   };
 }
 
 const PaintingCard: React.FC<PaintingCardProps> = ({ painting }): JSX.Element => {
-  const { path, name, etsyUrl, details } = painting
+  const { path, name, etsyUrl, details, price } = painting
   return (
     <div key={name} className="flex flex-col m-auto justify-center items-center text-center cursor-pointer" title="Link to Etsy">
       <a href={etsyUrl || baseEtsyUrl } target="_blank">
         <Image height={500} width={500} alt={name} src={path} />
         <Spacer height={1} />
-        <p className="text-xl"><i>{name}</i></p>
+        <p className="text-xl"><i>{name}</i> - ${price}</p>
         <p>{details}</p>
       </a>
       <Spacer height={3} />
